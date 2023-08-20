@@ -1,4 +1,4 @@
-![Screenshot 2023-08-20 at 21-22-35 Cart Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/9f4064d8-b9b6-46df-a97c-dd63dff529b2)# ECommerce-Shopping-Website
+# ECommerce-Shopping-Website
 Responsive E-Commerce Shopping Website using HTML, CSS, JavaScript and Java with Database Connectivity
 
 # Tools
@@ -23,16 +23,13 @@ REGISTRATION PAGE
 WEBSITE LANDING PAGE
 ![Screenshot 2023-08-20 at 21-21-25 Index page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/2014fd9d-296f-4a79-9b27-f46097b96aca)
 
-CART PAGE
-![Screenshot 2023-08-20 at 21-22-35 Cart Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/24112646-f38c-4a75-bbc2-6ebccf2681a5)
-
 CUSTOMER SERVICE PAGE
 ![Screenshot 2023-08-20 at 21-21-06 Customer Service Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/cddc6868-e52f-4f99-8d8e-671eefc7ca8a)
 
 TERMS AND CONDITIONS PAGE
 ![Screenshot 2023-08-20 at 21-21-40 Terms and Conditions Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/55ea9120-e178-4385-ab66-2d85608a5463)
 
-CHECKOUT PAGE
+NEWSLETTER PAGE
 ![Screenshot 2023-08-20 at 21-21-49 Login Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/19c0bcab-f511-4d29-8b4d-05accb6fdfea)
 
 CONTACT PAGE
@@ -44,7 +41,10 @@ SEARCH PAGE
 FAVOURITES PAGE
 ![Screenshot 2023-08-20 at 21-22-15 Search Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/946cfd90-e5b7-4c2b-b5ed-10a36edfc1e8)
 
+CART PAGE
+![Screenshot 2023-08-20 at 21-22-35 Cart Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/24112646-f38c-4a75-bbc2-6ebccf2681a5)
 
+CHECKOUT PAGE
 ![Screenshot 2023-08-20 at 21-24-53 Login Page](https://github.com/itsmesona09/ECommerce-Shopping-Website/assets/111109613/d57c0f78-1799-4eea-ad2e-dfd522710d21)
 
 
