@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Login Page</title>
+  <link rel="stylesheet" href="alert/dist/sweetalert.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="header">
+	<div class="navigation">
+		<div class="nav-center container d-flex">
+			<ul class="nav-list d-flex">
+				<li class="nav-item"><a href="customerservice.html" class="nav-link">Customer Service</a></li>
+				<li class="nav-item"><a href="index.jsp" class="nav-link">Shop</a></li>
+				<li class="nav-item"><a href="terms.html" class="nav-link">Terms</a></li>
+				<li class="nav-item"><a href="newsletter.html" class="nav-link">Newsletter</a></li>
+				<li class="nav-item"><a href="contactpage.html" class="nav-link">Contact</a></li>
+				<li class="icons d-flex">
+					<a href="login.jsp" class="icon"><i class='bx bx-user'></i></a>
+    				<div class="icon"><i class="bx bx-search"></i></div>
+    				<div class="icon d-flex">
+        			<i class="bx bx-heart"></i>
+        			<span class="d-flex">0</span>
+    			</div>
+    			<a href="card.html" class="icon d-flex">
+        			<i class="bx bx-cart"></i>
+        			<span class="d-flex">0</span>
+    			</a>
+				</li>
+			</ul>
+			<div class="icons d-flex">
+    			<a href="search.html" class="icon">
+    			<i class="bx bx-search"></i><p>Search</p></a>
+    			<a href="favourites.html" class="icon d-flex">
+        			<i class="bx bx-heart"></i>
+        			<span class="d-flex">0</span>
+        			<p>Favourites</p>
+    			</a>
+    			<a href="cart.html" class="icon d-flex">
+        			<i class="bx bx-cart"></i>
+        			<span class="d-flex">0</span>
+        			<p>Shopping Bag</p>
+    			</a>
+  			</div>
+  			<div class="hamburger">
+  				<i class="bx bx-menu-alt-left"></i>
+  			</div>
+		</div>
+	</div>
+	<div class="top-nav">
+		<div class="container d-flex">
+			<a href="" class="logo"><h1>B&B Italia</h1></a>
+		</div>
+	</div>
+</header>
+
+<div class="container-checkout">
+        <div class="container-checkout-box">
+        <h1>CHECKOUT</h1>
+        <form action="process_order.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea><br>
+
+            <label for="payment-method">Payment Method:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Bank Transfer</option>
+            </select><br>
+
+            <button type="submit" class="checkout-btn">Place Order</button>
+        </form>
+        </div>
+    </div>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col d-flex">
+			<h4>CORPORATE INFO</h4>
+			<a href="">Career at B&B Italia</a>
+			<a href="">About B&B Italia group</a>
+			<a href="">Sustainability B&B Italia Group</a>
+			<a href="">Press</a>
+			<a href="">Investor relations</a>
+			<a href="">Corporate governance</a>
+		</div>
+		
+		<div class="col d-flex">
+			<h4>HELP</h4>
+			<a href="customerservice.html">Customer Service</a>
+			<a href="">My B&B Italia</a>
+			<a href="">Find a store</a>
+			<a href="">Legal & Privacy</a>
+			<a href="">Report a scam</a>
+			<a href="">Cookie Notice</a>
+		</div>
+		<div class="col d-flex">
+			<h4>CONNECT US ON</br></h4>
+			<span><li><a href="https://www.facebook.com/"><i class="bx bxl-facebook-square"></i></a></li></span>
+			<span><li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li></span>
+			<span><li><a href="https://www.google.com/"><i class="bx bxl-google"></i></a></li></span>
+		</div>
+	</div>
+</footer>
+<script src="index.js"></script>
+
+</body>
+</html>

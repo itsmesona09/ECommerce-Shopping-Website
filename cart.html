@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cart Page</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header class="header" id="header">
+            <div class="navigation">
+                <div class="nav-center container d-flex">
+                    <ul class="nav-list d-flex">
+                        <li class="nav-item"><a href="customerservice.html" class="nav-link">Customer Service</a></li>
+                        <li class="nav-item"><a href="index.jsp" class="nav-link">Shop</a></li>
+                        <li class="nav-item"><a href="terms.html" class="nav-link">Terms</a></li>
+                        <li class="nav-item"><a href="newsletter.html" class="nav-link">Newsletter</a></li>
+                        <li class="nav-item"><a href="contactpage.html" class="nav-link">Contact</a></li>
+                        <li class="icons d-flex">
+                            <a href="login.jsp" class="icon"><i class="bx bx-user"></i></a>
+                            <div class="icon"><i class="bx bx-search"></i></div>
+                            <div class="icon d-flex">
+                                <i class="bx bx-heart"></i>
+                                <span class="d-flex">0</span>
+                            </div>
+                            <a href="card.html" class="icon d-flex">
+                                <i class="bx bx-cart"></i>
+                                <span class="d-flex">0</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="icons d-flex">
+                        <a href="search.html" class="icon">
+                            <i class="bx bx-search"></i>
+                            <p>Search</p>
+                        </a>
+                        <a href="favourites.html" class="icon d-flex">
+                            <i class="bx bx-heart"></i>
+                            <span class="d-flex">0</span>
+                            <p>Favourites</p>
+                        </a>
+                        <a href="cart.html" class="icon d-flex">
+                            <i class="bx bx-cart"></i>
+                            <span class="d-flex">0</span>
+                            <p>Shopping Bag</p>
+                        </a>
+                    </div>
+
+                    <div class="hamburger">
+                        <i class="bx bx-menu-alt-left"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-nav">
+                <div class="container d-flex">
+                    <a href="" class="logo"><h1>B&B Italia</h1></a>
+                </div>
+            </div>
+        </header>
+
+        <div class="container cart">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>SubTotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/productmen1.jpg" alt="" />
+                            <div>
+                                <p>Relaxed Fit Cotton cargo joggers</p>
+                                <span>Rs. 2999</span>
+                                <br />
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1" min="1" />
+                    </td>
+                    <td>Rs. 2999</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/productwomen1.jpg" alt="" />
+                            <div>
+                                <p>Oversized printed T-shirt</p>
+                                <span>Rs. 2999</span>
+                                <br />
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1" min="1" />
+                    </td>
+                    <td>Rs. 2999</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/productkids1.jpg" alt="" />
+                            <div>
+                                <p>Flounce-trimmed jersey dress</p>
+                                <span>Rs. 799</span>
+                                <br />
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1" min="1" />
+                    </td>
+                    <td>Rs. 799</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/productwomen3.jpg" alt="" />
+                            <div>
+                                <p>Asymmetric satin skirt</p>
+                                <span>Rs. 2899</span>
+                                <br />
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1" min="1" />
+                    </td>
+                    <td>Rs. 2899</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/productaccess1.jpg" alt="" />
+                            <div>
+                                <p>Wool-blend blanket</p>
+                                <span>Rs. 2499</span>
+                                <br />
+                                <a href="#">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1" min="1" />
+                    </td>
+                    <td>Rs. 2499</td>
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Total</td>
+                        <td><span id="totalPrice">Rs. 0.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>Rs. 0</td>
+                    </tr>
+                </table>
+
+                <a href="checkout.html" class="checkout-btn">Checkout</a>
+            </div>
+        </div>
+
+        <section class="section new-arrival">
+            <div class="title">
+                <h1>Straight up streetwear</h1>
+                <p>Perfect for modern-day trendsetter</p>
+            </div>
+
+            <div class="product-center">
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="productdetails.html" class="product-thumb">
+                            <img src="images/productmen5.jpg" alt="" />
+                        </a>
+                        <span class="discount">10%</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span>Men Clothes</span>
+                        <a href="productdetails.html">
+                            Regular Fit Hoodie
+                        </a>
+                        <h4>Rs. 1499</h4>
+                    </div>
+
+                    <ul class="icons">
+                        <li>
+                            <a href="favourites.html"><i class="bx bx-heart"></i></a>
+                        </li>
+                        <li>
+                            <a href="search.html"><i class="bx bx-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="bx bx-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="productdetails.html" class="product-thumb">
+                            <img src="images/productmen6.jpg" alt="" />
+                        </a>
+                        <span class="discount">70%</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span>Men Clothes</span>
+                        <a href="productdetails.html">
+                            Relaxed Fit Sweatshirt
+                        </a>
+                        <h4>Rs. 799</h4>
+                    </div>
+
+                    <ul class="icons">
+                        <li>
+                            <a href="favourites.html"><i class="bx bx-heart"></i></a>
+                        </li>
+                        <li>
+                            <a href="search.html"><i class="bx bx-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="bx bx-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="productdetails.html" class="product-thumb">
+                            <img src="images/productwomen1.jpg" alt="" />
+                            <span class="discount">10%</span>
+                        </a>
+                    </div>
+
+                    <div class="product-info">
+                        <span>Women Clothes</span>
+                        <a href="productdetails.html">
+                            Oversized printed T-shirt
+                        </a>
+                        <h4>Rs. 2999</h4>
+                    </div>
+
+                    <ul class="icons">
+                        <li>
+                            <a href="favourites.html"><i class="bx bx-heart"></i></a>
+                        </li>
+                        <li>
+                            <a href="search.html"><i class="bx bx-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="bx bx-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product-item">
+                    <div class="overlay">
+                        <a href="productdetails.html" class="product-thumb">
+                            <img src="images/productmen7.jpg" alt="" />
+                        </a>
+                        <span class="discount">30%</span>
+                    </div>
+
+                    <div class="product-info">
+                        <span>Men Clothes</span>
+                        <a href="productdetails.html">
+                            Relaxed Denim Joggers
+                        </a>
+                        <h4>Rs. 1700</h4>
+                    </div>
+
+                    <ul class="icons">
+                        <li>
+                            <a href="favourites.html"><i class="bx bx-heart"></i></a>
+                        </li>
+                        <li>
+                            <a href="search.html"><i class="bx bx-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="bx bx-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col d-flex">
+                    <h4>CORPORATE INFO</h4>
+                    <a href="">Career at B&B Italia</a>
+                    <a href="">About B&B Italia group</a>
+                    <a href="">Sustainability B&B Italia Group</a>
+                    <a href="">Press</a>
+                    <a href="">Investor relations</a>
+                    <a href="">Corporate governance</a>
+                </div>
+
+                <div class="col d-flex">
+                    <h4>HELP</h4>
+                    <a href="customerservice.html">Customer Service</a>
+                    <a href="">My B&B Italia</a>
+                    <a href="">Find a store</a>
+                    <a href="">Legal & Privacy</a>
+                    <a href="">Report a scam</a>
+                    <a href="">Cookie Notice</a>
+                </div>
+
+                <div class="col d-flex">
+                    <h4>CONNECT US ON</h4>
+                    <span>
+                        <li>
+                            <a href="https://www.facebook.com/"><i class="bx bxl-facebook-square"></i></a>
+                        </li>
+                    </span>
+                    <span>
+                        <li>
+                            <a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a>
+                        </li>
+                    </span>
+                    <span>
+                        <li>
+                            <a href="https://www.google.com/"><i class="bx bxl-google"></i></a>
+                        </li>
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            function updateSubtotal(row) {
+                const quantityInput = row.querySelector('input[type="number"]');
+                const priceElement = row.querySelector(".cart-info span");
+                const subtotalElement = row.querySelector("td:last-child");
+
+                const quantity = parseInt(quantityInput.value);
+                const price = parseFloat(priceElement.innerText.replace("Rs. ", ""));
+                const subtotal = quantity * price;
+
+                subtotalElement.innerText = "Rs. " + subtotal.toFixed(2);
+
+                updateTotal();
+            }
+
+            function removeRow(row) {
+                const table = row.parentNode;
+                table.removeChild(row);
+                const rows = document.querySelectorAll("tr[data-row]");
+                rows.forEach((row, index) => {
+                    row.setAttribute("data-row", index + 1);
+                    updateSubtotal(row);
+                });
+            }
+
+            function updateTotal() {
+                const subtotalElements = document.querySelectorAll("td:last-child");
+                let total = 0;
+                subtotalElements.forEach((subtotalElement) => {
+                    total += parseFloat(subtotalElement.innerText.replace("Rs. ", ""));
+                });
+
+                const totalPriceElement = document.getElementById("totalPrice");
+                totalPriceElement.innerText = "Rs. " + total.toFixed(2);
+            }
+
+            const quantityInputs = document.querySelectorAll('input[type="number"]');
+            quantityInputs.forEach((input) => {
+                input.addEventListener("change", function () {
+                    const row = this.closest("tr");
+                    updateSubtotal(row);
+                });
+            });
+
+            const removeButtons = document.querySelectorAll(".cart-info a");
+            removeButtons.forEach((button) => {
+                button.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const row = this.closest("tr");
+                    removeRow(row);
+                });
+            });
+
+            const rows = document.querySelectorAll("tr[data-row]");
+            rows.forEach((row) => {
+                updateSubtotal(row);
+            });
+        </script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
