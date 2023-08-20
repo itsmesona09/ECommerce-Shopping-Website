@@ -3,7 +3,7 @@ Responsive E-Commerce Shopping Website using HTML, CSS, JavaScript and Java with
 
 # Tools
 
-# Front-End 
+FRONT END
 • HTML
 • CSS
 • JavaScript
