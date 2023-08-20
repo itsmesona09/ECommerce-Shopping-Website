@@ -3,7 +3,7 @@ Responsive E-Commerce Shopping Website using HTML, CSS, JavaScript and Java with
 
 # Tools
 
-#Front-End 
+# Front-End 
 • HTML
 • CSS
 • JavaScript
@@ -12,4 +12,4 @@ Responsive E-Commerce Shopping Website using HTML, CSS, JavaScript and Java with
 • MySQL
 • 
 
-#Screenshots of the website
+# Screenshots of the website
