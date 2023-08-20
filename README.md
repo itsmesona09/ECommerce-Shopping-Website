@@ -4,17 +4,19 @@ Responsive E-Commerce Shopping Website using HTML, CSS, JavaScript and Java with
 
 # Tools
 
-FRONT-END
+FRONT-END 
 
 • HTML
 • CSS
 • JavaScript
 
 BACK-END
+
 • PHP
 • Java
 
 DATABASE
+
 • MySQL
 
 # Screenshots of the website
