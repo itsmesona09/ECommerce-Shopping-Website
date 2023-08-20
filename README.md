@@ -17,7 +17,6 @@ BACK-END
 DATABASE
 • MySQL
 
-
 # Screenshots of the website
 
 LOGIN PAGE
