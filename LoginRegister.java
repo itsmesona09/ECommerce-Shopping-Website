@@ -41,7 +41,7 @@ public class LoginRegister extends HttpServlet {
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ecompage?useSSL=false","root","@SonaSona09!");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ecompage?useSSL=false","root","******");
 			PreparedStatement pst=con.prepareStatement("select * from users where uemail=? and upwd=?");
 			pst.setString(1,uemail);
 			pst.setString(2, upwd);
